@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Nargis Ali - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shaik Nargis Ali</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with a passion for creating engaging content and reaching target audiences through various online channels.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Web developer</h3>
+            <p>I have worked as a web developer with World immigration consultants to modify their webpage last year 2023 may. .</p>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: shaiknargis4@gmail.com@example.com</p>
+        <p>Phone: 6309885581</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shaik Nargis Ali</p>
+    </footer>
+</body>
+</html>
+
+
+css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Comic Sans MS-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #C8A2C8;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #C8A2C8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
